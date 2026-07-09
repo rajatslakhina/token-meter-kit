@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 660" font-family="'SF Mono', Menlo, Consolas, monospace">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#57606a"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="920" height="660" fill="#ffffff"/>
+  <text x="460" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#1f2328">TokenMeterKit architecture</text>
+
+  <rect x="260" y="45" width="400" height="90" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
+  <text x="272" y="63" font-size="12" fill="#57606a">Your App</text>
+  <rect x="360" y="72" width="200" height="48" rx="6" fill="#ddf4ff" stroke="#0969da"/>
+  <text x="460" y="101" text-anchor="middle" font-size="13" fill="#1f2328">SwiftUI / App Logic</text>
+
+  <rect x="60" y="160" width="800" height="230" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
+  <text x="72" y="178" font-size="12" fill="#57606a">ProviderGatewayKit</text>
+  <rect x="360" y="190" width="200" height="48" rx="6" fill="#ddf4ff" stroke="#0969da"/>
+  <text x="460" y="219" text-anchor="middle" font-size="13" fill="#1f2328">LLMSession (actor)</text>
+  <rect x="360" y="270" width="200" height="48" rx="6" fill="#ddf4ff" stroke="#0969da"/>
+  <text x="460" y="299" text-anchor="middle" font-size="13" fill="#1f2328">ProviderRouter (actor)</text>
+  <rect x="140" y="350" width="220" height="48" rx="6" fill="#ddf4ff" stroke="#0969da"/>
+  <text x="250" y="379" text-anchor="middle" font-size="13" fill="#1f2328">LLMProvider: Cloud</text>
+  <rect x="560" y="350" width="220" height="48" rx="6" fill="#ddf4ff" stroke="#0969da"/>
+  <text x="670" y="379" text-anchor="middle" font-size="13" fill="#1f2328">LLMProvider: On-Device</text>
+
+  <rect x="60" y="430" width="800" height="210" rx="8" fill="#fff8f0" stroke="#d0d7de"/>
+  <text x="72" y="448" font-size="12" fill="#57606a">TokenMeterKit (this package)</text>
+  <rect x="360" y="460" width="200" height="48" rx="6" fill="#fff1e5" stroke="#bc4c00"/>
+  <text x="460" y="489" text-anchor="middle" font-size="13" fill="#1f2328">TokenMeter (actor)</text>
+  <rect x="140" y="540" width="220" height="48" rx="6" fill="#fff1e5" stroke="#bc4c00"/>
+  <text x="250" y="569" text-anchor="middle" font-size="13" fill="#1f2328">PricingRegistry (actor)</text>
+  <rect x="560" y="540" width="220" height="48" rx="6" fill="#fff1e5" stroke="#bc4c00"/>
+  <text x="670" y="569" text-anchor="middle" font-size="13" fill="#1f2328">MeterReport (value)</text>
+
+  <line x1="460" y1="120" x2="460" y2="188" stroke="#57606a" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="460" y1="238" x2="460" y2="268" stroke="#57606a" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="410" y1="318" x2="280" y2="348" stroke="#57606a" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="510" y1="318" x2="640" y2="348" stroke="#57606a" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <line x1="260" y1="398" x2="400" y2="458" stroke="#8b949e" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+  <text x="230" y="425" font-size="11" fill="#57606a">UsageReporting</text>
+  <line x1="660" y1="398" x2="520" y2="458" stroke="#8b949e" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+  <text x="580" y="425" font-size="11" fill="#57606a">UsageReporting</text>
+
+  <line x1="410" y1="508" x2="280" y2="538" stroke="#57606a" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="510" y1="508" x2="640" y2="538" stroke="#57606a" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <path d="M 780 564 C 880 564, 880 100, 562 96" fill="none" stroke="#57606a" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="795" y="330" font-size="11" fill="#57606a">report()</text>
+</svg>
