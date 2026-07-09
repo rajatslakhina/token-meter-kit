@@ -10,7 +10,7 @@ It is transport-agnostic and dependency-free. Any provider response — on-devic
 cloud, or self-hosted — can be metered by conforming to a single small protocol,
 so it drops straight into a gateway-routed pipeline.
 
-![Architecture](Screenshots/architecture.png)
+![Architecture](Screenshots/architecture.svg)
 
 ## Why it pairs with ProviderGatewayKit
 
@@ -78,7 +78,7 @@ swift run TokenMeterDemo
 It simulates a gateway-routed conversation that fails over across four models and
 prints a metered cost report:
 
-![Demo output](Screenshots/demo.png)
+![Demo output](Screenshots/demo.svg)
 
 ## Quality
 
@@ -87,7 +87,7 @@ prints a metered cost report:
 - **Coverage:** 100% line coverage of the `TokenMeterKit` library target.
 - **Lint:** `swiftlint lint --strict` — zero violations.
 
-![Test, coverage and lint results](Screenshots/tests.png)
+![Test, coverage and lint results](Screenshots/tests.svg)
 
 ## Architecture
 
