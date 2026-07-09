@@ -7,11 +7,13 @@
   <rect x="0" y="0" width="920" height="660" fill="#ffffff"/>
   <text x="460" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#1f2328">TokenMeterKit architecture</text>
 
+  <!-- Cluster: Your App -->
   <rect x="260" y="45" width="400" height="90" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
   <text x="272" y="63" font-size="12" fill="#57606a">Your App</text>
   <rect x="360" y="72" width="200" height="48" rx="6" fill="#ddf4ff" stroke="#0969da"/>
   <text x="460" y="101" text-anchor="middle" font-size="13" fill="#1f2328">SwiftUI / App Logic</text>
 
+  <!-- Cluster: ProviderGatewayKit -->
   <rect x="60" y="160" width="800" height="230" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
   <text x="72" y="178" font-size="12" fill="#57606a">ProviderGatewayKit</text>
   <rect x="360" y="190" width="200" height="48" rx="6" fill="#ddf4ff" stroke="#0969da"/>
@@ -23,6 +25,7 @@
   <rect x="560" y="350" width="220" height="48" rx="6" fill="#ddf4ff" stroke="#0969da"/>
   <text x="670" y="379" text-anchor="middle" font-size="13" fill="#1f2328">LLMProvider: On-Device</text>
 
+  <!-- Cluster: TokenMeterKit -->
   <rect x="60" y="430" width="800" height="210" rx="8" fill="#fff8f0" stroke="#d0d7de"/>
   <text x="72" y="448" font-size="12" fill="#57606a">TokenMeterKit (this package)</text>
   <rect x="360" y="460" width="200" height="48" rx="6" fill="#fff1e5" stroke="#bc4c00"/>
@@ -32,6 +35,7 @@
   <rect x="560" y="540" width="220" height="48" rx="6" fill="#fff1e5" stroke="#bc4c00"/>
   <text x="670" y="569" text-anchor="middle" font-size="13" fill="#1f2328">MeterReport (value)</text>
 
+  <!-- Edges -->
   <line x1="460" y1="120" x2="460" y2="188" stroke="#57606a" stroke-width="1.5" marker-end="url(#arrow)"/>
   <line x1="460" y1="238" x2="460" y2="268" stroke="#57606a" stroke-width="1.5" marker-end="url(#arrow)"/>
   <line x1="410" y1="318" x2="280" y2="348" stroke="#57606a" stroke-width="1.5" marker-end="url(#arrow)"/>
