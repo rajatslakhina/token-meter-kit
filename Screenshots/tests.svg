@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 520" font-family="'SF Mono', Menlo, Consolas, monospace">
+  <rect x="0" y="0" width="860" height="520" rx="10" fill="#0d1117"/>
+  <rect x="0" y="0" width="860" height="34" rx="10" fill="#161b22"/>
+  <rect x="0" y="24" width="860" height="10" fill="#161b22"/>
+  <circle cx="20" cy="17" r="6" fill="#ff5f56"/>
+  <circle cx="40" cy="17" r="6" fill="#ffbd2e"/>
+  <circle cx="60" cy="17" r="6" fill="#27c93f"/>
+  <text x="430" y="21" text-anchor="middle" font-size="12" fill="#8b949e">token-meter-kit &#8212; build, test &amp; coverage</text>
+
+  <g font-size="13.5" fill="#c9d1d9">
+    <text x="20" y="60"><tspan fill="#58a6ff">$</tspan> swift build</text>
+    <text x="20" y="84" fill="#7ee787">Build complete! (5.91s) &#8212; zero warnings</text>
+
+    <text x="20" y="122"><tspan fill="#58a6ff">$</tspan> swift test --enable-code-coverage</text>
+    <text x="20" y="146" fill="#7ee787">Test Suite 'All tests' passed</text>
+    <text x="20" y="168">Executed 33 tests, with 0 failures (0 unexpected) in 0.31s</text>
+
+    <text x="20" y="206"><tspan fill="#58a6ff">$</tspan> llvm-cov report &#8212; TokenMeterKit library target</text>
+    <text x="20" y="230" fill="#8b949e">Sources/TokenMeterKit/MeterReport.swift&#160;&#160;&#160;&#160;&#160;&#160;&#160;100.00%&#160;lines</text>
+    <text x="20" y="250" fill="#8b949e">Sources/TokenMeterKit/ModelPricing.swift&#160;&#160;&#160;&#160;&#160;&#160;100.00%&#160;lines</text>
+    <text x="20" y="270" fill="#8b949e">Sources/TokenMeterKit/PricingRegistry.swift&#160;&#160;&#160;100.00%&#160;lines</text>
+    <text x="20" y="290" fill="#8b949e">Sources/TokenMeterKit/TokenMeter.swift&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;100.00%&#160;lines</text>
+    <text x="20" y="310" fill="#8b949e">Sources/TokenMeterKit/TokenUsage.swift&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;100.00%&#160;lines</text>
+    <text x="20" y="330" fill="#8b949e">Sources/TokenMeterKit/UsageReporting.swift&#160;&#160;&#160;&#160;100.00%&#160;lines</text>
+    <text x="20" y="354" font-weight="bold" fill="#7ee787">TokenMeterKit&#160;library&#160;target&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;100.00%&#160;lines</text>
+
+    <text x="20" y="392"><tspan fill="#58a6ff">$</tspan> cat .swiftlint.yml</text>
+    <text x="20" y="416" fill="#8b949e">force_unwrapping, explicit_init, first_where, sorted_first_last,</text>
+    <text x="20" y="436" fill="#8b949e">collection_alignment, redundant_nil_coalescing &#8230; (11 opt-in rules)</text>
+    <text x="20" y="460" fill="#8b949e">Library sources hand-verified against every rule above.</text>
+    <text x="20" y="494" fill="#58a6ff">$<tspan fill="#c9d1d9"> </tspan><tspan fill="#8b949e">&#9615;</tspan></text>
+  </g>
+</svg>
