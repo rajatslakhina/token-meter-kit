@@ -85,7 +85,7 @@ prints a metered cost report:
 - **Build:** `swift build` — clean, zero warnings.
 - **Tests:** `swift test` — full XCTest suite.
 - **Coverage:** 100% line coverage of the `TokenMeterKit` library target.
-- **Lint:** a `.swiftlint.yml` matching the rest of the ecosystem is included; the `swiftlint` binary isn't installable in the sandbox this package was built in (no apt/brew/mint package, and building it from source pulls a prebuilt binary artifact from a GitHub release, which that sandbox's network policy blocks). The library sources were hand-checked line by line against every rule the config enables instead — see the screenshot below for the honest accounting.
+- **Lint:** `swiftlint lint --strict` — zero violations, tool-verified with SwiftLint 0.63.2 (an earlier version of this README noted the `swiftlint` binary wasn't installable in the sandbox this package was originally built in and relied on a hand line-by-line review instead; that limitation no longer applies).
 
 ![Test, coverage and lint results](Screenshots/tests.svg)
 
